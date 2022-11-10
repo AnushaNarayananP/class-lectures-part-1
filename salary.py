@@ -1,0 +1,10 @@
+from emp import *
+basic=int(input("Enter your basic salary:"))
+gross= basic+hra(basic) +ta(basic)
+inhand=gross-pf(basic)-itax(basic) 
+print("your gross salary is:",gross) 
+print("your inhand salary is:",inhand) 
+print("pf",pf(basic))
+print("itax",itax(basic))
+print("hra",hra(basic))
+print("ta",ta(basic)) 
